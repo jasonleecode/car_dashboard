@@ -1,7 +1,5 @@
 # Qt6 Car Dashboard UI (车机仪表盘 Demo)
 
-<img width="317" height="217" alt="1766988732666" src="https://github.com/user-attachments/assets/49862b08-1213-42c9-9c39-354ad432a399" />
-
 这是一个基于 **Qt 6 (C++)** 和 **QML** 构建的嵌入式车机（IVI）主界面原型程序。
 
 该项目展示了如何使用 Qt Quick Controls 2 创建现代化的车载用户界面，包含主菜单网格布局、状态栏模拟以及页面导航逻辑。所有 UI 元素（包括图标、电池、信号）均通过 QML 矢量绘制，无需外部图片资源即可运行。

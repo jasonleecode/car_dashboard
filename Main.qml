@@ -173,7 +173,23 @@ ApplicationWindow {
                             onClicked: {
                                 if (model.name === "设置") {
                                     stackView.push(settingsPageComponent)
-                                } else {
+                                } 
+                                else if (model.name === "导航") {
+                                    stackView.push("NavigationPage.qml")
+                                }
+                                else if (model.name === "车辆信息") {
+                                    stackView.push("CarInfoPage.qml")
+                                }
+                                else if (model.name === "音乐") {
+                                    stackView.push("MusicPage.qml")
+                                }
+                                else if (model.name === "视频") {
+                                    stackView.push("VideoPage.qml")
+                                }
+                                else if (model.name === "收音机") {
+                                    stackView.push("RadioPage.qml")
+                                }
+                                else {
                                     stackView.push(detailPageComponent, {pageTitle: model.name})
                                 }
                             }
